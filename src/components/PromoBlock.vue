@@ -1,5 +1,5 @@
 <template>
-     <div class="promo-block">
+     <div class="promo-block" id="main">
       <div class="container">
         <div class="margin-b-40">
           <h1 class="promo-block-title">Digital Product Agency.</h1>
