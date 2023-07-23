@@ -2,7 +2,7 @@
 import Header from "@/components/Header.vue";
 import PromoBlock from "@/components/PromoBlock.vue";
 import Products from "@/components/Products.vue";
-import Service from "@/components/Service.vue";
+import Services from "@/components/Services.vue";
 import PromoBaner from "@/components/PromoBaner.vue";
 import Work from "@/components/Work.vue";
 import Pricing from "@/components/Pricing.vue";
@@ -16,7 +16,7 @@ import Footer from "@/components/Footer.vue";
     <Header />
     <PromoBlock />
     <Products />
-    <Service />
+    <Services />
     <PromoBaner />
     <Work />
     <Pricing />

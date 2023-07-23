@@ -1,0 +1,26 @@
+[
+    {
+        "id": 0,
+        "scrImage": "/src/assets/img/970x647/01.jpg",
+        "name" : "Workspace",
+        "type": "Management",
+        "href": "#",
+        "des": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor"
+    },
+    {
+        "id": 2,
+        "scrImage": "/src/assets/img/970x647/02.jpg",
+        "name" : "Minimalism",
+        "type": "Developmeny",
+        "href": "#",
+        "des": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor"
+    },
+    {
+        "id": 2,
+        "scrImage": "/src/assets/img/970x647/03.jpg",
+        "name" : "Cleant Style",
+        "type": "Design",
+        "href": "#",
+        "des": "Lorem ipsum dolor sit amet consectetur adipiscing elit sed tempor incdidunt ut laboret dolor magna ut consequat siad esqudiat dolor"
+    }
+]
