@@ -1,0 +1,41 @@
+[
+    {
+        "id": 0,
+        "name": "Starter Kit",
+        "price": 49,
+        "des": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+        "iconClass": "icon-chemistry",
+        "link:": "#",
+        "list": [
+            "Basic Features",
+            "Up to 5 products",
+            "0 Users Panels 5"
+        ]
+    },
+    {
+        "id": 1,
+        "name": "Professional",
+        "price": 149,
+        "des": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+        "iconClass": "icon-chemistry",
+         "link:": "#",
+        "list": [
+            "Basic Features",
+            "Up to 100 products",
+            "100 Users Panels"
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Advanced",
+        "price": 249,
+        "des": "Lorem ipsum dolor amet consectetur ut consequat siad esqudiat dolor",
+        "iconClass": "icon-chemistry",
+         "link:": "#",
+        "list": [
+            "Extended Features",
+            "Unlimited products",
+            "Unlimited Users Panels"
+        ]
+    }
+]
