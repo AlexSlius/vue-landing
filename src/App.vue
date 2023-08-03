@@ -9,6 +9,8 @@ import Pricings from "@/components/Pricings.vue";
 import Testimonials from "@/components/Testimonials.vue";
 import Contact from "@/components/Contact.vue";
 import Footer from "@/components/Footer.vue";
+
+import { scrollingByHasTag } from "@/helpers/scrolles.js";
 </script>
 
 <template>
@@ -23,8 +25,8 @@ import Footer from "@/components/Footer.vue";
     <Testimonials />
     <Contact />
     <Footer />
-    <a href="javascript:void(0);" class="js-back-to-top back-to-top">Top</a>
 
+    <button class="back-to-top" @click.prevent="scrollingByHasTag('#main')">Top</button>
   </div>
 </template>
 

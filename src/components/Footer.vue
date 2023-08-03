@@ -1,3 +1,7 @@
+<script setup>
+  import { scrollingByHasTag } from "@/helpers/scrolles.js";
+</script>
+
 <template>
      <footer class="footer">
       <!-- Links -->
@@ -7,15 +11,15 @@
             <div class="col-sm-2 sm-margin-b-30">
               <!-- List -->
               <ul class="list-unstyled footer-list">
-                <li class="footer-list-item"><a href="#">Home</a></li>
-                <li class="footer-list-item"><a href="#">About</a></li>
-                <li class="footer-list-item"><a href="#">Work</a></li>
-                <li class="footer-list-item"><a href="#">Contact</a></li>
+                <li class="footer-list-item"><a href="#main" @click.prevent="scrollingByHasTag('#main')">Home</a></li>
+                <li class="footer-list-item"><a href="#main" @click.prevent="scrollingByHasTag('#main')">About</a></li>
+                <li class="footer-list-item"><a href="#work" @click.prevent="scrollingByHasTag('#work')">Work</a></li>
+                <li class="footer-list-item"><a href="#contact" @click.prevent="scrollingByHasTag('#contact')">Contact</a></li>
               </ul>
               <!-- End List -->
             </div>
             <div class="col-sm-2 sm-margin-b-30">
-              <!-- List -->@/assets/img/
+              <!-- List -->
               <ul class="list-unstyled footer-list">
                 <li class="footer-list-item"><a href="#">Twitter</a></li>
                 <li class="footer-list-item"><a href="#">Facebook</a></li>
