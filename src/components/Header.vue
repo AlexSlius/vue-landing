@@ -1,11 +1,27 @@
 <script setup>
+import { ref } from "vue"
+
 // components
 import HeaderNavbarCollapse from "@/components/HeaderNavbarCollapse.vue";
 
 // constants navigations 
 import links from "@/navigation/routers";
-</script>
 
+const props = defineProps({
+  typeDevice: String
+});
+
+const showMobMenu = ref(false);
+
+const handleOpenOrCloseMobmenu = () => {
+  showMobMenu.value = !showMobMenu.value;
+}
+
+const handleCloseMobmenu = () => {
+  showMobMenu.value = false;
+}
+
+</script>
 
 <template>
   <header class="header navbar-fixed-top">
@@ -14,7 +30,7 @@ import links from "@/navigation/routers";
       <div class="container">
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="menu-container js_nav-item">
-          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".nav-collapse" @click="handleOpenOrCloseMobmenu">
             <span class="sr-only">Toggle navigation</span>
             <span class="toggle-icon"></span>
           </button>
@@ -29,7 +45,7 @@ import links from "@/navigation/routers";
           <!-- End Logo -->
         </div>
 
-        <HeaderNavbarCollapse :links="links" />
+        <HeaderNavbarCollapse :links="links" :typeDevice="typeDevice" :showMobMenu="showMobMenu" :closeMobMenu = "handleCloseMobmenu"/>
       </div>
     </nav>
     <!-- Navbar -->

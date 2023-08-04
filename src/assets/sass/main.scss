@@ -71,3 +71,9 @@
 
 @import 'utils/colors'; // Colors
 @import 'utils/helpers'; // Helpers
+
+.header .navbar-collapse.collapse {
+	&.open {
+		display: block!important;
+	}
+}
